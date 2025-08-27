@@ -1,86 +1,107 @@
-    :root {
-        --violet: #4A1C66;
-        --light-violet: #844C82;
-        --color4: #454047;
-        --color2-dark: #38661C;
-        --color2: #7ad442;  
-        --color3: #facb19;
-        --hover-color: var(--color2);
-    }
+:root {
+    --violet: #4A1C66;
+    --light-violet: #844C82;
+    --color4: #454047;
+    --color2-dark: #57a626;
+    /* --color2-dark: #38661C; */
+    --color2: #7ad442;  
+    --color3: #facb19;
 
-    nav{
-        background: linear-gradient(0deg, var(--light-violet), var(--violet));
-        color: white;
-    }
+    --color-ocasions: #536352;
+    --hover-color: var(--color2);
+}
 
-    .product-flags li.product-flag{
-        background: linear-gradient(0deg, var(--light-violet), var(--violet));
-        color: white;
-    }
+.header-nav{
+    background: linear-gradient(0deg, var(--light-violet), var(--violet));
+    color: white;
+}
 
-
-    #header .header-nav .blockcart{
-        background: #e5b7ff17;
-    }
+.product-flags li.product-flag{
+    background: linear-gradient(0deg, var(--light-violet), var(--violet));
+    color: white;
+}
 
 
-    /* liens du header */
-    #header nav .user-info a{
-        color: white;
-    }
-    #header a:hover {
-        color: var(--hover-color);
-    }
-    #header nav .user-info a:hover {
-        color: var(--color2);
-    }
+#header .header-nav .blockcart{
+    background: #e5b7ff17;
+}
 
-    .dropdown .expand-more{
-        color: white;
-    }
-    .dropdown:hover .expand-more{
-        color: var(--color2);
-    }
 
-    .btn-unstyle:focus .expand-more{
-        color: var(--color2);
-    }
+/* liens du header */
+#header nav .user-info a{
+    color: white;
+}
+#header a:hover {
+    color: var(--hover-color);
+}
+#header nav .user-info a:hover {
+    color: var(--color2);
+}
 
-    .dropdown-menu a:hover{
-        color: var(--hover-color);
-    }
-    .dropdown-menu a{
-        color: black;
-    }
+.dropdown .expand-more{
+    color: white;
+}
+.dropdown:hover .expand-more{
+    color: var(--color2);
+}
 
-    #header #top-menu a:hover{
-        color: var(--hover-color);
-    }
+.btn-unstyle:focus .expand-more{
+    color: var(--color2);
+}
 
-    #_desktop_top_menu .top-menu[data-depth="0"] li:hover .sub-menu{
-        background-color: var(--color4);
-    }
-    #_desktop_top_menu .top-menu[data-depth="0"] li .sub-menu a{
-        color: white;
-    }
-    #_desktop_top_menu .top-menu[data-depth="0"] li:hover .sub-menu .dropdown-submenu{
-        color: var(--hover-color);
-    }
+.dropdown-menu a:hover{
+    color: var(--hover-color);
+}
+.dropdown-menu a{
+    color: black;
+}
 
-    /* panier */
-    #header .header-nav .cart-preview.active{
-        background-color: var(--color2);
-        color: black !important;
-    }
+#header #top-menu a:hover{
+    color: var(--hover-color);
+}
 
-    /* bouton de recherche */
-    .ets_search_block_top .btn.button-search{
-        background-color: var(--light-violet)!important;
-    }
-    .ets_search_block_top .btn.button-search:hover{
-        background-color: var(--violet)!important;
-        /* border-color: var(--hover-color); */
-    }
+#_desktop_top_menu .top-menu[data-depth="0"] li:hover .sub-menu{
+    background-color: var(--color4);
+}
+#_desktop_top_menu .top-menu[data-depth="0"] li .sub-menu a{
+    color: white;
+}
+#_desktop_top_menu .top-menu[data-depth="0"] li:hover .sub-menu .dropdown-submenu{
+    color: var(--color2);
+}
+#_desktop_top_menu .top-menu[data-depth="0"] li .sub-menu .dropdown-submenu:hover{
+    color: var(--color2-dark) !important;
+}
+
+#header #top-menu #category-16 .sub-menu{
+    background-color: var(--color-ocasions);
+}
+#header #top-menu #category-16 .sub-menu a{
+    color: white;
+}
+#header #top-menu #category-16 .sub-menu a:hover{
+    color: var(--color2);
+}
+#header #top-menu #category-16 .sub-menu .dropdown-menu{
+    color: var(--color2)!important;
+}
+
+
+
+/* panier */
+#header .header-nav .cart-preview.active{
+    background-color: var(--color2);
+    color: black !important;
+}
+
+/* bouton de recherche */
+.ets_search_block_top .btn.button-search{
+    background-color: var(--light-violet)!important;
+}
+.ets_search_block_top .btn.button-search:hover{
+    background-color: var(--violet)!important;
+    /* border-color: var(--hover-color); */
+}
 
     .search_block_results .box_button_see{
         background-color: var(--light-violet)!important;
