@@ -76,15 +76,11 @@
 #header #top-menu #category-16 .sub-menu{
     background-color: var(--color-ocasions);
 }
-#header #top-menu #category-16 .sub-menu a{
-    color: white;
-}
-#header #top-menu #category-16 .sub-menu a:hover{
-    color: var(--color2);
-}
-#header #top-menu #category-16 .sub-menu .dropdown-menu{
-    color: var(--color2)!important;
-}
+
+/* #header #top-menu #category-16 .dropdown-item{
+    color: var(--color2-dark)
+} */
+
 
 
 
@@ -148,3 +144,84 @@
     footer .footer-container p{
         color: white;
     }
+
+
+/* ancier custom theme ----------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#header #top-menu #lnk-promotions a {
+  color: #f90015;
+}
+#header #top-menu #lnk-promotions a:before {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJZSURBVDiNjZNPSFRRFMZ/971338zojI6MM70BtVBrE7kZXRSEtQwirFWbMAyyhQi5KAoX0cpFUFJJtMi9WhMFraJNSFgQ5cpACbW/mmXOzJt58+a922I0g5miu7znO9/9nY9zocp5f2bg/ELfQCdAfjR11R7vPFlNB6BVu1TZ3Fk9YzcD+IKjep1xXaUPRf/bwC8WR3ZN3kvnR1MtwhQtaFhFnKEy3WDv/KlziS2t+Buaur03bBOc1i2jQ2gCBasBtzm5kI4+EF5prm1i/GJVgvxY6hKA7QenjITsEJrYeinu6ktdKlu8XBLFqaoEuVudfVotY4Yhe9y8m9bjRrDwpYagZW+KVb95fObuPzJQw1rUCHghNanHjCDAjxcJnG915SrssG+krlU1yN5M7dNCWguA0Amjgb0QQakImXdNZZHLfi2u92cnuqwKA+HTI4JCB8jMRSllJetvkxAIUVwP4xdMkOKIqNHC0jAObvUZ2yyqCQM8RyMzmyD/2QdZ/7tc+BomkNhAD5VAU60VBEqJAkqQmY2hZC36nm4MK4FWX54/M5fAWdncJYWqINCVeqOKCndNIgIS2d6GnrQQUpJ79ASvVIdr5zbnZbGCwBbyPlnvpzAU+Arn1Wu85U+UFj+gx2NlkS8AHNP3n1YYxAZnNpSrHgesrFKOg7u4hGxvRbcShA53gxCYDTmAUXHi5VpliEAo2Xba8+cjhtlwzFOWyD+fBtNE7mxGRnKErO8PzRV3+M+eir+gFGJ95MBQbrnpgu/VN/pIEWjMrIZ3f7wS7n12R4jtAAF+AWm52p9V1Lq9AAAAAElFTkSuQmCC");
+}
+.product-flag.discount {
+  visibility: hidden;
+}
+.product-flag.discount:after {
+  content: "PROMO" !important;
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: 5px;
+  padding: 5px;
+  background-color: #f90015;
+}
+.product-discount .discount-percentage {
+  visibility: hidden;
+}
+.product-discount .discount-percentage:after {
+  content: "PROMO" !important;
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: 30px;
+  padding: 5px;
+  background-color: #f90015;
+}
+.has-discount.product-price {
+  color: #f90015;
+}
+#product .discount-percentage {
+  display: none;
+}
+#product .discount-amount {
+  display: none;
+}
+#product .current-price {
+  font-size: 30px;
+}
+#product .has-discount.product-price {
+  color: #f90015;
+}
+
+#manufacturer #manufacturer-banner {
+  margin-bottom: 15px;
+}
+#manufacturer #manufacturer-banner .img-responsive {
+  width: 100%;
+}
+#manufacturer #manufacturer-short_description {
+  background-color: #fff;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#product .product-manufacturer {
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+#product .product-manufacturer img {
+  margin-bottom: 20px;
+  max-width: 100px;
+  border: 1px solid #ccc;
+}
+#product #brand_name {
+  background-color: #fff;
+  text-align: center;
+}
