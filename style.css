@@ -102,61 +102,89 @@
     /* border-color: var(--hover-color); */
 }
 
-    .search_block_results .box_button_see{
-        background-color: var(--light-violet)!important;
-        transition: background-color 0.3s ease;
-    }
-    .search_block_results .box_button_see:hover{
-        background-color: var(--violet)!important;
-    }
+.search_block_results .box_button_see{
+    background-color: var(--light-violet)!important;
+    transition: background-color 0.3s ease;
+}
+.search_block_results .box_button_see:hover{
+    background-color: var(--violet)!important;
+}
 
 
 
-    /* centre du site */
-    #main a:hover{
-        color: var(--hover-color) !important;
-    }
+/* centre du site */
+#main a:hover{
+    color: var(--hover-color) !important;
+}
 
-    #carousel i:hover{
-        color: var(--hover-color);
-    }
+#carousel i:hover{
+    color: var(--hover-color);
+}
+
+.current-price{
+    color: var(--light-violet);
+}
+
+.product-images>li.thumb-container>.thumb.selected, .product-images>li.thumb-container>.thumb:hover {
+border: 3px solid var(--color2);
+
+}
 
 
 
 
-    /* footer */
-    .block-social ul li:hover {
-        background-color: var(--violet)!important;
-    }
-    .block-social ul li {
-        background-color: var(--light-violet)!important;
-    }
 
-    footer a:hover{
-        color: var(--hover-color) !important;
-    }
+/* footer */
+.block-social ul li:hover {
+    background-color: var(--violet)!important;
+}
+.block-social ul li {
+    background-color: var(--light-violet)!important;
+}
 
-    footer .footer-container{
-        background: linear-gradient(180deg, var(--light-violet), var(--violet));
-        color: white !important;
-    }
+footer a:hover{
+    color: var(--hover-color) !important;
+}
 
-    footer .footer-container a{
-        color: white;
-    }
-    footer .footer-container p{
-        color: white;
-    }
+footer .footer-container{
+    background: linear-gradient(180deg, var(--light-violet), var(--violet));
+    color: white !important;
+}
+
+footer .footer-container a{
+    color: white;
+}
+footer .footer-container p{
+    color: white!important;
+}
+.block-contact{
+    color: white!important;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary:disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled:hover{
+    background-color: var(--color2);
+}
+.btn-primary{
+    background-color: var(--color2);
+}
+.btn-primary:hover{
+    background-color: var(--color2-dark);
+}
+
+input:focus{
+    border-color: var(--color2) !important;
+}
+
 
 
 /* ancier custom theme ----------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------*/
 
-#header #top-menu #lnk-promotions a {
+#header #top-menu #lnk-promos a {
   color: #f90015;
 }
-#header #top-menu #lnk-promotions a:before {
+#header #top-menu #lnk-promos a:before {
   content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJZSURBVDiNjZNPSFRRFMZ/971338zojI6MM70BtVBrE7kZXRSEtQwirFWbMAyyhQi5KAoX0cpFUFJJtMi9WhMFraJNSFgQ5cpACbW/mmXOzJt58+a922I0g5miu7znO9/9nY9zocp5f2bg/ELfQCdAfjR11R7vPFlNB6BVu1TZ3Fk9YzcD+IKjep1xXaUPRf/bwC8WR3ZN3kvnR1MtwhQtaFhFnKEy3WDv/KlziS2t+Buaur03bBOc1i2jQ2gCBasBtzm5kI4+EF5prm1i/GJVgvxY6hKA7QenjITsEJrYeinu6ktdKlu8XBLFqaoEuVudfVotY4Yhe9y8m9bjRrDwpYagZW+KVb95fObuPzJQw1rUCHghNanHjCDAjxcJnG915SrssG+krlU1yN5M7dNCWguA0Amjgb0QQakImXdNZZHLfi2u92cnuqwKA+HTI4JCB8jMRSllJetvkxAIUVwP4xdMkOKIqNHC0jAObvUZ2yyqCQM8RyMzmyD/2QdZ/7tc+BomkNhAD5VAU60VBEqJAkqQmY2hZC36nm4MK4FWX54/M5fAWdncJYWqINCVeqOKCndNIgIS2d6GnrQQUpJ79ASvVIdr5zbnZbGCwBbyPlnvpzAU+Arn1Wu85U+UFj+gx2NlkS8AHNP3n1YYxAZnNpSrHgesrFKOg7u4hGxvRbcShA53gxCYDTmAUXHi5VpliEAo2Xba8+cjhtlwzFOWyD+fBtNE7mxGRnKErO8PzRV3+M+eir+gFGJ95MBQbrnpgu/VN/pIEWjMrIZ3f7wS7n12R4jtAAF+AWm52p9V1Lq9AAAAAElFTkSuQmCC");
 }
 .product-flag.discount {
