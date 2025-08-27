@@ -1,0 +1,118 @@
+:root {
+    --violet: #4A1C66;
+    --light-violet: #844C82;
+    --green: #38661C;
+    --yellow: #7ad442;
+    /* --yellow: #facb19; */
+    --hover-color: var(--yellow);
+}
+
+nav{
+    background: linear-gradient(0deg, var(--light-violet), var(--violet));
+    color: white;
+}
+
+.product-flags li.product-flag{
+    background: linear-gradient(0deg, var(--light-violet), var(--violet));
+    color: white;
+}
+
+
+#header .header-nav .blockcart{
+    background: #e5b7ff17;
+}
+
+
+/* liens du header */
+#header nav .user-info a{
+    color: white;
+}
+#header a:hover {
+    color: var(--hover-color);
+}
+#header nav .user-info a:hover {
+    color: var(--yellow);
+}
+
+.dropdown .expand-more{
+    color: white;
+}
+.dropdown:hover .expand-more{
+    color: var(--yellow);
+}
+
+.btn-unstyle:focus .expand-more{
+    color: var(--yellow);
+}
+
+.dropdown-menu a:hover{
+    color: var(--hover-color);
+}
+.dropdown-menu a{
+    color: black;
+}
+
+#header #top-menu a:hover{
+    color: var(--hover-color);
+}
+
+/* panier */
+#header .header-nav .cart-preview.active{
+    background-color: var(--yellow);
+    color: black !important;
+}
+
+/* bouton de recherche */
+.ets_search_block_top .btn.button-search{
+    background-color: var(--light-violet)!important;
+}
+.ets_search_block_top .btn.button-search:hover{
+    background-color: var(--violet)!important;
+    /* border-color: var(--hover-color); */
+}
+
+.search_block_results .box_button_see{
+    background-color: var(--light-violet)!important;
+    transition: background-color 0.3s ease;
+}
+.search_block_results .box_button_see:hover{
+    background-color: var(--violet)!important;
+}
+
+
+
+/* centre du site */
+#main a:hover{
+    color: var(--hover-color) !important;
+}
+
+#carousel i:hover{
+    color: var(--hover-color);
+}
+
+
+
+
+/* footer */
+.block-social ul li:hover {
+    background-color: var(--violet)!important;
+}
+.block-social ul li {
+    background-color: var(--light-violet)!important;
+}
+
+footer a:hover{
+    color: var(--hover-color) !important;
+}
+
+footer .footer-container{
+    background: linear-gradient(180deg, var(--light-violet), var(--violet));
+    color: white !important;
+}
+
+footer .footer-container a{
+    color: white;
+}
+footer .footer-container p{
+    color: white;
+}
