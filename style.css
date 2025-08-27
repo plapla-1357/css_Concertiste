@@ -77,9 +77,12 @@
     background-color: var(--color-ocasions);
 }
 
-/* #header #top-menu #category-16 .dropdown-item{
+#header #top-menu #category-16 .dropdown-item[data-depth="0"]{
     color: var(--color2-dark)
-} */
+}
+#header #top-menu #category-16 .dropdown-item[data-depth="0"]:hover{
+    color: var(--hover-color)
+}
 
 
 
