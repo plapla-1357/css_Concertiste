@@ -5,10 +5,19 @@
     --color2-dark: #57a626;
     /* --color2-dark: #38661C; */
     --color2: #7ad442;  
-    --color3: #facb19;
+    --color3: #facb19; /* non utilisé pour l'instant */
+    --color5: #ef751d; /* hover promos */
+    --color6: #e2d8ea; /* hover background selection */
 
     --color-ocasions: #536352;
     --hover-color: var(--color2);
+}
+
+a{
+    color: var(--light-violet);
+}
+a:focus{
+    color: var(--hover-color);
 }
 
 .header-nav{
@@ -93,6 +102,19 @@
     color: black !important;
 }
 
+.block-promo .promo-input+button{
+    border: var(--color2) 1px solid;
+}
+
+.block-promo .promo-code-button.cancel-promo{
+    color: var(--light-violet);
+}
+
+#blockcart-modal .product-name{
+    color: var(--light-violet);
+}
+
+
 /* bouton de recherche */
 .ets_search_block_top .btn.button-search{
     background-color: var(--light-violet)!important;
@@ -110,7 +132,9 @@
     background-color: var(--violet)!important;
 }
 
-
+#header #top-menu #lnk-promos a:hover {
+    color: var(--color5);
+}
 
 /* centre du site */
 #main a:hover{
@@ -126,7 +150,15 @@
 }
 
 .product-images>li.thumb-container>.thumb.selected, .product-images>li.thumb-container>.thumb:hover {
-border: 3px solid var(--color2);
+    border: 3px solid var(--color2);
+}
+
+.product-miniature .product-price-and-shipping{
+    color: var(--light-violet);
+}
+
+article a:hover, article .quikck-view:hover{
+    color: var(--hover-color)!important;
 
 }
 
@@ -135,6 +167,10 @@ border: 3px solid var(--color2);
 
 
 /* footer */
+.linkedin{
+    background-image: url("https://concertiste.com/themes/classic/assets/css/Linkedin.svg");
+}
+
 .block-social ul li:hover {
     background-color: var(--violet)!important;
 }
@@ -152,7 +188,10 @@ footer .footer-container{
 }
 
 footer .footer-container a{
-    color: white;
+    color: white !important;
+}
+footer .footer-container a:hover{
+    color: var(--hover-color) !important;
 }
 footer .footer-container p{
     color: white!important;
@@ -171,11 +210,90 @@ footer .footer-container p{
     background-color: var(--color2-dark);
 }
 
+.btn-primary:active, .btn-primary:focus{
+    background-color: var(--color2-dark) !important;
+}
+
+#main .btn-primary:hover{
+    color: white !important; 
+}
+
 input:focus{
     border-color: var(--color2) !important;
 }
 
 
+/* commander */
+#checkout .logo{
+    filter: brightness(0) invert(1);
+}
+.form-control:focus, .input-group.focus{
+    outline: .1875rem solid var(--color2) ;
+}
+
+.custom-radio input[type=radio]:checked+span {
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+
+#checkout .nav-item .nav-link{
+    color: var(--light-violet);
+}
+#checkout .nav-item .nav-link:hover{
+    color: var(--hover-color);
+}
+
+#checkout a:hover{
+    color: var(--hover-color) !important;
+}
+
+
+
+/* page recherche */
+
+.wrap_header_tap ul li.active a{
+    background-color: var(--light-violet) !important;
+}
+
+
+/* page cattegorie */
+.pagination .current a{
+    color: var(--light-violet) !important;
+}
+
+.block-categories a:hover{
+    color: var(--hover-color) !important;
+
+}
+.block-categories a.h6{
+    color: var(--light-violet);
+}
+
+#products .products-sort-order .select-list:hover{
+    background-color: var(--color6);
+    color: black !important
+}
+
+.facet-dropdown .select-list:hover{
+    background-color: var(--color6);
+    color: black !important
+}
+
+.facet-dropdown.open>.select-title{
+    border-color: var(--light-violet);
+}
+
+
+/* page articles */
+.tabs .nav-tabs .nav-link.active{
+    color: var(--light-violet);
+    border-bottom: 3px solid var(--light-violet);
+}
+
+.tabs .nav-tabs .nav-link.active:hover, .tabs .nav-tabs .nav-link:hover{
+    color: var(--hover-color);
+    border-bottom: 3px solid var(--hover-color);
+}
 
 /* ancier custom theme ----------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
