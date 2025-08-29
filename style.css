@@ -295,6 +295,16 @@ input:focus{
     border-bottom: 3px solid var(--hover-color);
 }
 
+/* page compte */
+.page-my-account #content .links a:hover i{
+    color: var(--color2-dark);
+}
+
+.alert-info{
+    background-color: var(--color6);
+    border-color: var(--light-violet);
+    color: black;
+}
 /* ancier custom theme ----------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------*/
