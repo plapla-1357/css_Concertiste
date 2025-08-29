@@ -305,6 +305,32 @@ input:focus{
     border-color: var(--light-violet);
     color: black;
 }
+/*  ----------------------------------------------------------------------------------------------
+responsive ---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+*/
+@media (max-width: 767px) {
+    #header .header-nav .user-info .logged:hover{
+        color: var(--hover-color);
+    }
+    #header .header-nav .user-info .logged{
+        color: white;
+    }
+
+    #header .header-nav {
+        background: linear-gradient(0deg, var(--light-violet), var(--violet));
+        color: white;
+    }
+
+    #header .header-nav .top-logo a img{
+        filter: brightness(0) invert(1);}
+}
+
+
+
+
+
+
 /* ancier custom theme ----------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------*/
